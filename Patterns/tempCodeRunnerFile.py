@@ -1,0 +1,1 @@
+Alpha_Triangle_Pattern
