@@ -26,13 +26,18 @@
 # class Toyota(Car):
 #     def __init__(self,name) -> None:
 #         Car.carName=name
+#     def toyo(self):
+#         print('toyo')
         
 # class Fortuner(Toyota):
-#     def __init__(self,type) -> None:
+#     def __init__(self,type,name) -> None:
 #         Car.type=type
+#         Car.carName=name
+#         super().toyo()
         
-# t1=Fortuner("Electric")
-# t1.start()
+        
+# t1=Fortuner("Electric","Fortuner")
+
     
 '''Multiple Inheritance'''
 

@@ -14,12 +14,13 @@
     ->Then we jumped to objects and classes to mainly increase RESUSABLITY
 '''
 class person:
-    def fun(self):
-        self.name="vv"
-        print(self.name)
+    def fun(sel):
+        sel.name="vv"
+        print(sel.name)
     def fog(self):
+        self.name="aa"
         print(self.name)
-        print(self)
+        # print(self)
 a=person()
 b=person()
 b.name="vivek"

@@ -1,1 +1,2 @@
-function_to_be_used = 
+for i in myMap.values():
+    print(i)

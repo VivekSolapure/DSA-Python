@@ -16,6 +16,14 @@ class students:
         print(self.name)  #This will print "Vicky Souls" bcz obj attribute has higher precedence than class attr 
         print(self.__class__.name)
         print(self.name)
+    def fun(self):
+        print(self.name)
         
         
 s1=students("Vicky Souls")
+s1.fun() 
+
+arr=[1,2,3,4,5]
+print()
+my_dict = {i:i+7 for i in range(1, 10)}
+print(my_dict)

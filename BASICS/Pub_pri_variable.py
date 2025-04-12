@@ -5,6 +5,7 @@
 
 class student:
     __name="vivek"
+    _surname="solapure"
     def __init__(self) -> None:
         self.getname()
         self.__grettings()
@@ -14,6 +15,12 @@ class student:
     
     def __grettings(self):
         print("hello",self.getname())
+        
+class a(student):
+    def fun(self):
+        print(super().__name)
 
 s1=student()
+s=a()
+s.fun()
 # print(s1.__name)

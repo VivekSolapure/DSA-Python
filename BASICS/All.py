@@ -111,6 +111,8 @@ print(type(myset))
 
 print("########################################### HASHMAP #######################################")
 myMap={'a':1,'b':2}
+for i in enumerate myMap:
+    
 myMap.pop('a')
 print(myMap)
 mapp={i:2*i for i in range(5)}

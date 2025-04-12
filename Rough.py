@@ -7,19 +7,21 @@
 # print(hashMap)
 
 str=["asd","das","erre"]
-count={}
-arr=[]
+li={i:len(i) for i in str if 'a' in i}
+print(li)
+# count={}
+# arr=[]
 
-for i in str:
-    res=''.join(sorted(i))
-    if res in count:
-        count[res].append(i)
-    else:
-        count[res]=[i]
+# for i in str:
+#     res=''.join(sorted(i))
+#     if res in count:
+#         count[res].append(i)
+#     else:
+#         count[res]=[i]
         
-for key in count:
-    arr.append(count[key])
-print(arr)
+# for key in count:
+#     arr.append(count[key])
+# print(arr)
 # sortt=[]
 # for i in str:
 #     sortt.joi

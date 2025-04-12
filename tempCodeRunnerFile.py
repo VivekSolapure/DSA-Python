@@ -1,9 +1,11 @@
-i=0
-# while i < len(stringg):    
-#     j=i
-#     while stringg[j] != "#":
-#         j+=1
-#     lenggth = int(stringg[i:j])
-#     decoded.append(stringg[j+1 : j+1+lenggth])
-#     i=j+1+lenggth
-# print(decoded)
+
+# for i in range(len(nums)):
+#     if 0 not in nums:
+#         missing=0
+#         break
+#     elif len(nums) not in nums:
+#         missing=len(nums)
+#         break
+#     elif nums[i]+1 not in nums and nums[i]!=len(nums):
+#         missing=nums[i]+1
+# print(missing)

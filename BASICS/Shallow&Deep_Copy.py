@@ -18,6 +18,7 @@ shallow_copied_list[2][0] = 99
 deep_copied_list[2][1] = 88
 
 print("Shallow copied list:", shallow_copied_list)
+print("Original list:", original_list)
 print("Deep copied list:", deep_copied_list)
 print("Original list:", original_list)
 

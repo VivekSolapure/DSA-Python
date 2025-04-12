@@ -1,5 +1,4 @@
 str=2
 
-fun=lambda string: print(string*string)
+lambda string: print(2*2)
 
-fun(str)

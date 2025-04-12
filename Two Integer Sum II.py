@@ -20,9 +20,8 @@ while start<end:
         print(start+1,end+1)
         break
     
-    if sum<target:
+    if sum<target:  
         start+=1
     elif sum>target:
         end-=1
-    
         

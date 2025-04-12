@@ -23,17 +23,17 @@
 
 # Question: create student class that takes marks and name of three subject as argument in constructor then create a method to print the average
 
-class student:
-    def __init__(self,name,m1,m2,m3):
-        self.name=name
-        self.m1=m1
-        self.m2=m2
-        self.m3=m3
-        print(self.avg())
-    def avg(self):
-        avg=(self.m1+self.m2+self.m3)/3
-        return self.name,avg
-s1=student("hehe",50,21,33)
+# class student:
+#     def __init__(self,name,m1,m2,m3):
+#         self.name=name
+#         self.m1=m1
+#         self.m2=m2
+#         self.m3=m3
+#         print(self.avg())
+#     def avg(self):
+#         avg=(self.m1+self.m2+self.m3)/3
+#         return self.name,avg
+# s1=student("hehe",50,21,33)
 
 
 '''Static Methods'''
@@ -53,7 +53,22 @@ class student:
         print("welcome")
     
     def avg(self):
-        avg=(self.m1+self.m2+self.m3)/3
-        return self.name,avg
-s1=student("hehe",50,21,33)
-s2=student("hehe",50,21,33)
+        # avg=(self.m1+self.m2+self.m3)/3
+        # return self.name,avg
+        print("Ee")
+# s1=student("hehe",50,21,33)
+# s2=student("hehe",50,21,33)
+student.greetings()
+
+
+class Counter:
+    count=1
+    # @staticmethod
+    def fun(self):
+        Counter.count+=1
+        print(Counter.count)
+        
+t1=Counter()
+t1.fun()
+t2=Counter()
+t2.fun()
